@@ -6,7 +6,9 @@ int main(int argc, char* argv[])
 {
     printf("hi :3\n");
 
-    Cpu cpu;
+    Memory memory;
+
+    Cpu cpu(memory);
 
     return 0;
 }

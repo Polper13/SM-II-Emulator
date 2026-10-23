@@ -1,10 +1,13 @@
 #pragma once
 
+#include "memory.h"
+
 class Cpu
 {
 public:
-    Cpu();
+    Cpu(Memory &memory);
 
 private:
+    Memory &memory;
 
 };

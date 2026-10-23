@@ -2,7 +2,8 @@
 
 #include "stdio.h"
 
-Cpu::Cpu()
+Cpu::Cpu(Memory &memory)
+:memory(memory)
 {
     printf("Cpu created! :D\n");
 }
